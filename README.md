@@ -13,10 +13,13 @@ Esse projeto é um temporizador no estilo pomodoro.
 </br>
 
 ## Pré-Visualização
+
+<h2 align="center" style="max-width: 412px; margin: auto;">Versão Mobile</h2>
 <h1 align="center" style="max-width: 412px; margin: auto;">
     <img src="./assets/image/preview/place-holder.jpg" alt="gif da versão mobile">
 </h1>
 
+<h2 align="center" style="max-width: 412px; margin: auto;">Versão Desktop</h2>
 <h1 align="center">
     <img src="./assets/image/preview/place-holder.jpg" alt="gif da versão desktop">
 </h1>
@@ -57,13 +60,13 @@ Além de melhorar exercitar o HTML, CSS e Git, o projeto tem a intenção de tra
 
 ## Funcionalidades
 
-- []  Iniciar uma contagem regressiva;
-- []  Pausar o temporizador;
-- []  Parar o temporizador;
-- []  Adicionar sons aos cards;
-- []  Aumentar o temporizador;
-- []  Dimunuir o temporizador;  
-- []  Adicionar som quando o temporizador for encerrado.
+- [ ]  Iniciar uma contagem regressiva;
+- [ ]  Pausar o temporizador;
+- [ ]  Parar o temporizador;
+- [ ]  Adicionar sons aos cards;
+- [ ]  Aumentar o temporizador;
+- [ ]  Diminuir o temporizador;  
+- [ ]  Adicionar som quando o temporizador for encerrado.
 
 
 </br>
