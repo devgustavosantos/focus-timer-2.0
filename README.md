@@ -57,13 +57,13 @@ Além de melhorar exercitar o HTML, CSS e Git, o projeto tem a intenção de tra
 
 ## Funcionalidades
 
-- [] Iniciar uma contagem regressiva;
-- [] Pausar o temporizador;
-- [] Parar o temporizador;
-- [] Adicionar sons aos cards;
-- [] Aumentar o temporizador;
-- [] Dimunuir o temporizador;  
-- [] Adicionar som quando o temporizador for encerrado.
+- []  Iniciar uma contagem regressiva;
+- []  Pausar o temporizador;
+- []  Parar o temporizador;
+- []  Adicionar sons aos cards;
+- []  Aumentar o temporizador;
+- []  Dimunuir o temporizador;  
+- []  Adicionar som quando o temporizador for encerrado.
 
 
 </br>
