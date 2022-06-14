@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+
+    --color-a: #323238;
+    --color-b: #E1E1E6;
+    --color-c: #02799D;
+
+    --font-a: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: var(--font-a);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: clamp(60rem, 60rem + 30vw, 82.1rem);
+    max-height: 33.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#timer {
+    max-width: 32.1rem;
+    max-height: 21.3rem;
+}
+
+#timer-numbers p {
+
+font-family: var(--font-a);
+font-style: normal;
+font-weight: 500;
+font-size: 12.6rem;
+line-height: 14.8rem;
+
+text-align: center;
+text-transform: uppercase;
+
+color: #323238;
+}
+
+#timer-controls {
+    display: flex;
+    justify-content: space-between;
+}
+
+button.controls {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: all .8s;
+}
+
+button.controls:hover,
+.cards:hover {
+    transform: scale(1.3);
+}
+
+
+#sounds {
+    max-width: 30.8rem;
+    height: 100%;
+    display: grid;
+    grid-gap: 3.2rem;
+    grid-template-areas: 
+    "A B"
+    "C D";
+}
+
+.cards {
+    width: 13.8rem;
+    height: 15.2rem;
+    cursor: pointer;
+    background-color: var(--color-b);
+    border-radius: 2.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all .8s;
+}
+
+.sonud-on-div{
+    background-color: var(--color-c);
+}
+
+.sonud-on-svg{
+    fill: #FFFFFF;
+}
