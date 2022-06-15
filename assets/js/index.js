@@ -1,6 +1,6 @@
 const buttonPlay = document.getElementById("play");
 const buttonStop = document.getElementById("stop");
-const buttonIncressed = document.getElementById("increase");
+const buttonIncresse = document.getElementById("increase");
 const buttonDecrease = document.getElementById("decrease");
 
 const minutesDisplay = document.getElementById("minutes");
@@ -31,6 +31,21 @@ function activatedCard(card){
     icon.classList.toggle("sound-on-svg");
     card.classList.toggle("sound-on-div");
 }
+
+
+buttonIncresse.addEventListener("click", function() {
+    let minutes = Number(minutesDisplay.textContent)
+    minutesDisplay.textContent = String(minutes + 5);
+})
+
+buttonDecrease.addEventListener("click", function() {
+    let minutes = Number(minutesDisplay.textContent)
+    if(minutes >= 5) {
+        minutesDisplay.textContent = String(minutes - 5);
+    } else {
+        alert("Não é possivel diminuir o tempo em 5 minutos!")
+    }
+})
 
 cardForest.addEventListener("click", function() {
     soundTurnOn(soundForest);

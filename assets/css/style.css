@@ -51,7 +51,13 @@ main {
     justify-content: space-between;
 }
 
-button.controls {
+.controls,
+.cards {
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.controls {
     background-color: transparent;
     border: none;
     cursor: pointer;
