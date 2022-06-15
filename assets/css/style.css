@@ -85,11 +85,11 @@ button.controls:hover,
     transition: all .8s;
 }
 
-.sonud-on-div{
+.sound-on-div{
     background-color: var(--color-c);
 }
 
-.sonud-on-svg{
+.sound-on-svg{
     fill: #FFFFFF;
 }
 
