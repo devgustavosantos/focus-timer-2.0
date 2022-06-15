@@ -18,7 +18,7 @@ const soundFirePit = new Audio("./assets/sound/fire-pit.wav");
 const alertTimer = new Audio("./assets/sound/alert.mp3");
 
 let timer;
-let timeTimerOut = 3;
+let timeTimerOut = 59;
 let countInProgress = false;
 
 
@@ -41,6 +41,7 @@ function decreaseCount() {
             } else {
                 secondsDisplay.textContent = String(seconds - 1).padStart(2, "0");
             }
+
             decreaseCount();
         }, 1000);
 }

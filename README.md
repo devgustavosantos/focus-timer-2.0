@@ -14,14 +14,12 @@ Esse projeto é um temporizador no estilo pomodoro.
 
 ## Pré-Visualização
 
-<h2 align="center" style="max-width: 412px; margin: auto;">Versão Mobile</h2>
 <h1 align="center" style="max-width: 412px; margin: auto;">
-    <img src="./assets/image/preview/place-holder.jpg" alt="gif da versão mobile">
+    <img src="./assets/image/preview/mobile.gif" alt="gif da versão mobile">
 </h1>
 
-<h2 align="center" style="max-width: 412px; margin: auto;">Versão Desktop</h2>
 <h1 align="center">
-    <img src="./assets/image/preview/place-holder.jpg" alt="gif da versão desktop">
+    <img src="./assets/image/preview/desktop.gif" alt="gif da versão desktop">
 </h1>
 
 </br>
@@ -38,7 +36,7 @@ Esse projeto é um temporizador no estilo pomodoro.
 
 ## Sobre
 
-Este é um dos projetos propostos no programa [Explorer da Rocketseat](https://www.rocketseat.com.br/explorer), onde é apresentado um temporizador onde o usuário pode definir um tempo, e ao final desse tempo tocará um alarme.
+Este é um dos projetos propostos no programa [Explorer da Rocketseat](https://www.rocketseat.com.br/explorer), os [detalhes estão aqui](https://efficient-sloth-d85.notion.site/FocusTimer-Vers-o-2-0-2e273fa9212a432eae6b51dda3c69594), mas basicamente é apresentado um temporizador onde o usuário pode definir um tempo, e ao final desse tempo tocará um alarme.
 
 Além de melhorar exercitar o HTML, CSS e Git, o projeto tem a intenção de trabalhar com alguns conceitos do **clean code**, para melhor entendimento do código, e experimentar a utilização de alguns conteúdos mais avançados do JS:
 - Desestruturação;
@@ -60,13 +58,12 @@ Além de melhorar exercitar o HTML, CSS e Git, o projeto tem a intenção de tra
 
 ## Funcionalidades
 
-- [ ]  Iniciar uma contagem regressiva;
-- [ ]  Pausar o temporizador;
-- [ ]  Parar o temporizador;
-- [ ]  Adicionar sons aos cards;
-- [ ]  Aumentar o temporizador;
-- [ ]  Diminuir o temporizador;  
-- [ ]  Adicionar som quando o temporizador for encerrado.
+- [x]  Iniciar uma contagem regressiva;
+- [x]  Parar o temporizador;
+- [x]  Adicionar sons aos cards;
+- [x]  Aumentar o temporizador;
+- [x]  Diminuir o temporizador;  
+- [x]  Adicionar som quando o temporizador for encerrado.
 
 
 </br>
