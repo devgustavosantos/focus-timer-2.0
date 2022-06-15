@@ -115,4 +115,9 @@ button.controls:hover,
         width: 12vw;
         height: 12vw;
     }
+
+    button.controls:hover,
+    .cards:hover {
+        transform: none;
+    }
 }
