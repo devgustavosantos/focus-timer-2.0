@@ -26,7 +26,7 @@ Esse projeto é um temporizador no estilo pomodoro.
 
 ## Aviso
 
-- O projeto **está em andamento**, por isso é normal que erros aconteçam.
+- O projeto **está finalizado**, porém talvez tenham melhorias no código futuramente.
 
 - Para testar o projeto basta [CLICAR AQUI!](https://devgustavosantos.github.io/focus-timer-2.0/)
 
