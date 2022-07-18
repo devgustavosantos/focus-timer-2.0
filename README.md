@@ -1,4 +1,4 @@
-# Focus Timer
+# Focus Timer 2.0
 
 Esse projeto é um temporizador no estilo pomodoro.
 
