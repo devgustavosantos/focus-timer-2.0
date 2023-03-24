@@ -1,6 +1,6 @@
 const buttonPlay = document.getElementById("play");
 const buttonStop = document.getElementById("stop");
-const buttonIncresse = document.getElementById("increase");
+const buttonIncrease = document.getElementById("increase");
 const buttonDecrease = document.getElementById("decrease");
 
 const minutesDisplay = document.getElementById("minutes");
@@ -14,7 +14,7 @@ const cardFirePit = document.getElementById("fire-pit");
 export {
     buttonPlay,
     buttonStop,
-    buttonIncresse,
+    buttonIncrease,
     buttonDecrease,
     minutesDisplay,
     secondsDisplay,
